@@ -3,6 +3,14 @@
     <string name="Image">Image</string>
     <string name="CityTours">City Tours</string>
     <string name="LoginButton">Login</string>
-    <string name="emailField">Email</string>
+    <string name="emailField">UserName</string>
     <string name="PasswordField">Password</string>
+    <string name="cityDescription1">Visit Paris on a city tour. Discover the must see monuments on a sightseeing tour by bus or boat with the specialist of tourism in Paris</string>
+    <string name="cityDescription2">Visit New York on a city tour. Discover the must see Buildings on a sightseeing tour by bus or boat with the specialist of tourism in New York</string>
+    <string name="cityDescription3">Visit England on a city tour. Discover the must see Views on a sightseeing tour by bus or boat with the specialist of tourism in Views</string>
+    <string name="paris">Paris</string>
+    <string name="newYork">New York</string>
+    <string name="england">England</string>
+
+    <string name="todo">TODO</string>
 </resources>
