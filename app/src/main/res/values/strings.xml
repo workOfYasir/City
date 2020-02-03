@@ -3,4 +3,6 @@
     <string name="Image">Image</string>
     <string name="CityTours">City Tours</string>
     <string name="LoginButton">Login</string>
+    <string name="emailField">Email</string>
+    <string name="PasswordField">Password</string>
 </resources>
