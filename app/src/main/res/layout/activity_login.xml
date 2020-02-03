@@ -4,12 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/colorLogoText"
     tools:context=".Login">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
 
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+
+            android:backgroundTint="@color/colorLogoText"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CityTours"
+            android:textColor="@color/colorBackground"
+            android:fontFamily="sans-serif"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:id="@+id/Logo"
+            />
         <ImageView
             android:id="@+id/UserLogo"
             android:layout_width="350dp"
@@ -58,11 +77,11 @@
             android:onClick="Login"
             />
         <ImageView
-            android:layout_width="match_parent"
+            android:layout_width="450dp"
             android:layout_height="90dp"
             android:layout_alignParentBottom="true"
             android:src="@drawable/footer"
-            android:layout_marginBottom="-2dp"
+            android:layout_marginBottom="-10dp"
             />
     </RelativeLayout>
 

@@ -4,12 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/colorLogoText"
     tools:context=".MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
           >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+
+            android:backgroundTint="@color/colorLogoText"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CityTours"
+            android:textColor="@color/colorBackground"
+            android:fontFamily="sans-serif"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:id="@+id/Logo"
+            />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -42,15 +62,15 @@
             android:layout_below="@+id/LogoText"
             android:layout_marginTop="80dp"
             android:layout_centerHorizontal="true"
-            android:onClick="Login"
+            android:onClick="moveToLogin"
             />
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:src="@drawable/footer"
-            android:layout_marginBottom="-2dp"
-            />
+            android:layout_marginBottom="-92dp"
+            android:src="@drawable/footer" />
+
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
